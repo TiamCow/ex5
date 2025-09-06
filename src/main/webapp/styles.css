@@ -1,0 +1,43 @@
+/* Body tổng thể */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin: 2em;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Tiêu đề */
+h1 { 
+    color: teal;
+    margin-bottom: 0.5em;
+}
+
+/* Hướng dẫn */
+p {
+    margin-bottom: 1.5em;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px; /* chỉnh khoảng cách */
+    color: #666;
+    font-size: 0.9em;
+}
